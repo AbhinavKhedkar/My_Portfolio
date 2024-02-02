@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
 
-const PDF_FILE_URL = 'https://my-portfolio-website-cz26y76uq-abhinavkhedkars-projects.vercel.app/Abhinav_Khedkar_Resume.pdf'
+const PDF_FILE_URL = 'https://my-portfolio-website-coral-beta.vercel.app/Abhinav_Khedkar_Resume.pdf'
 
 const HeroSection = () => {
     const downloadFileAtURRL = (url) => {
