@@ -30,7 +30,7 @@ const HeroSection = () => {
                         className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
                         <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold'>
                             <span className='text-transparent bg-clip-text bg-gradient-to-t from-secondary-400 to-tertiary-600'>
-                                Hello, I'm{" "}
+                                Hello, I&apos;m{" "}
                             </span>
                             <br></br>
                             <TypeAnimation className='text-slate-200'
@@ -50,7 +50,7 @@ const HeroSection = () => {
                             />
                         </h1>
                         <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                            As a CDAC graduate, I bring a strong foundation in programming languages such as Java, JavaScript, and C#, coupled with expertise in MySQL for database management. My journey into full-stack development has equipped me with proficiency in React.js, Spring Boot, JDBC, and Express. I am a versatile developer ready to contribute to dynamic teams and drive meaningful solutions for modern application development challenges. Let's collaborate to bring innovation and success to your projects.
+                            As a CDAC graduate, I bring a strong foundation in programming languages such as Java, JavaScript, and C#, coupled with expertise in MySQL for database management. My journey into full-stack development has equipped me with proficiency in React.js, Spring Boot, JDBC, and Express. I am a versatile developer ready to contribute to dynamic teams and drive meaningful solutions for modern application development challenges. Let&apos;s collaborate to bring innovation and success to your projects.
                         </p>
                         <div>
                             <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 via-secondary-500 to-tertiary-500 hover:bg-slate-200 text-slate-200 hover:text-slate-600'>

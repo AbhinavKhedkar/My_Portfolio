@@ -81,11 +81,11 @@ const AboutSection = () => {
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold text-slate-200 mb-4'>About Me</h2>
                     <p className='text-base lg:text-lg text-slate-600'>
-                        Hello, I'm Abhinav Khedkar, a graduate from CDAC ACTS, Pune with a PG-DAC certification. My journey into the realm of technology has been incredibly exciting and fulfilling, driven by my passion for crafting innovative solutions and my unwavering dedication to excellence.
+                        Hello, I&apos;m Abhinav Khedkar, a graduate from CDAC ACTS, Pune with a PG-DAC certification. My journey into the realm of technology has been incredibly exciting and fulfilling, driven by my passion for crafting innovative solutions and my unwavering dedication to excellence.
 
-                        During my time at CDAC, I've honed my skills in various programming languages, including Java, JavaScript, and C#, along with mastering MySQL for efficient database management. Additionally, I've delved into full-stack development, gaining proficiency in technologies like React.js, Spring Boot, JDBC, and Express, which have equipped me to build robust and dynamic applications.
+                        During my time at CDAC, I&apos;ve honed my skills in various programming languages, including Java, JavaScript, and C#, along with mastering MySQL for efficient database management. Additionally, I&apos;ve delved into full-stack development, gaining proficiency in technologies like React.js, Spring Boot, JDBC, and Express, which have equipped me to build robust and dynamic applications.
 
-                        I thrive in collaborative environments, believing that diverse perspectives foster innovation. I'm eager to contribute my skills to address modern application development challenges, whether it's architecting scalable systems, optimizing database performance, or designing intuitive user interfaces. With my enthusiasm and precision, I'm ready to roll up my sleeves and make meaningful contributions to your projects. Let's join forces and bring fresh ideas to life, propelling your endeavors to new heights of success.
+                        I thrive in collaborative environments, believing that diverse perspectives foster innovation. I&apos;m eager to contribute my skills to address modern application development challenges, whether it&apos;s architecting scalable systems, optimizing database performance, or designing intuitive user interfaces. With my enthusiasm and precision, I&apos;m ready to roll up my sleeves and make meaningful contributions to your projects. Let&apos;s join forces and bring fresh ideas to life, propelling your endeavors to new heights of success.
                     </p>
                 </div>
                 <div>
