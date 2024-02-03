@@ -100,7 +100,7 @@ const AboutSection = () => {
                         {TAB_DATA.find((t) => t.id === tab).content}
                     </div>
                 </div>
-                <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-secondary-500 to-transparent rounded-full h-80 w-80 z-0 sm:absolute bottom-0 right-0'>
+                <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-secondary-500 to-transparent rounded-full h-60 sm:h-80 w-60 sm:w-80 z-0 sm:absolute bottom-0 right-0'>
                     <Image src="/images/extra_gif/butterfly3.gif" width={500} height={500} />
                 </div>
             </div>

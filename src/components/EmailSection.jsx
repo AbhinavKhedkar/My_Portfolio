@@ -45,7 +45,7 @@ const EmailSection = () => {
         <Image src="/images/extra_gif/butterfly4.gif" className='w-full h-full top-0 left-0 absolute' width={500} height={500} />
       </div>
       {/* background */}
-      <div className='h-96 w-96 z-0 -left-10 absolute top-3/4 transform md:translate-x-full -translate-y-52'>
+      <div className='h-96 w-96 z-0 -left-20 absolute top-3/4 transform sm:translate-x-full -translate-y-52'>
         <Image src="/images/background/email.gif" className='w-full h-full top-0 left-0 absolute' width={500} height={500} />
         <div className='h-20 w-full z-0 absolute -bottom-0.5 items-center'>
         <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-red-600 via-yellow-6  
