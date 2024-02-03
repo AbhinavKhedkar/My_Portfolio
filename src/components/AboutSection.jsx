@@ -88,8 +88,8 @@ const AboutSection = () => {
                         I thrive in collaborative environments, believing that diverse perspectives foster innovation. I&apos;m eager to contribute my skills to address modern application development challenges, whether it&apos;s architecting scalable systems, optimizing database performance, or designing intuitive user interfaces. With my enthusiasm and precision, I&apos;m ready to roll up my sleeves and make meaningful contributions to your projects. Let&apos;s join forces and bring fresh ideas to life, propelling your endeavors to new heights of success.
                     </p>
                 </div>
-                <div>
-                    <div className='flex flex-row justify-start mt-8'>
+                <div className='z-10'>
+                    <div className='flex flex-col md:flex-row justify-start mt-8'>
                         <TabButton selectTab={() => handelTabChange("skills")} active={tab == "skills"}>{" "}Skills{" "}</TabButton>
                         <TabButton selectTab={() => handelTabChange("education")} active={tab == "education"}>{" "}Education{" "}</TabButton>
                         <TabButton selectTab={() => handelTabChange("experience")} active={tab == "experience"}>{" "}Experience{" "}</TabButton>
@@ -100,7 +100,7 @@ const AboutSection = () => {
                         {TAB_DATA.find((t) => t.id === tab).content}
                     </div>
                 </div>
-                <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-secondary-500 to-transparent rounded-full h-80 w-80 z-0 absolute bottom-0 right-0'>
+                <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-secondary-500 to-transparent rounded-full h-80 w-80 z-0 sm:absolute bottom-0 right-0'>
                     <Image src="/images/extra_gif/butterfly3.gif" width={500} height={500} />
                 </div>
             </div>

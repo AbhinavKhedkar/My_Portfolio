@@ -40,16 +40,19 @@ const EmailSection = () => {
   }
   return (
     <section id='contacts' className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 border border-l-transparent border-r-transparent border-b-transparent relative">
+      {/* butterfly */}
       <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-secondary-500 to-transparent rounded-full h-80 w-80 z-0 absolute top-3/4 -left-2 transform -translate-x-1/2 -translate-y-1/2'>
         <Image src="/images/extra_gif/butterfly4.gif" className='w-full h-full top-0 left-0 absolute' width={500} height={500} />
       </div>
-      <div className='h-96 w-96 z-0 absolute top-3/4 transform translate-x-full -translate-y-52'>
+      {/* background */}
+      <div className='h-96 w-96 z-0 -left-10 absolute top-3/4 transform md:translate-x-full -translate-y-52'>
         <Image src="/images/background/email.gif" className='w-full h-full top-0 left-0 absolute' width={500} height={500} />
         <div className='h-20 w-full z-0 absolute -bottom-0.5 items-center'>
         <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-red-600 via-yellow-6  
         00 to-transparent w-48 h-24 rounded-tl-full rounded-tr-full absolute left-24 bottom-0'></div>
         </div>
       </div>
+      {/* LetsConnect */}
       <div>
         <h5 className='text-xl font-bold text-slate-200 my-2'>Let&apos;s Connect</h5>
         <p className='text-slate-600 mb-4 max-w-md'>
@@ -73,7 +76,8 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+      {/* email form */}
+      <div className='z-10'>
         <form className='flex flex-col' onSubmit={handleSubmit}>
           <div className='mb-6'>
             <label
