@@ -17,27 +17,31 @@ const EmailSection = () => {
       email: e.target.email.value,
       subject: e.target.subject.value,
       message: e.target.message.value,
-    }
+    };
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
 
+    // Form the request for sending data to the server.
     const options = {
-      method: 'POST',
+      // The method is POST because we are sending data.
+      method: "POST",
+      // Tell the server we're sending JSON.
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
+      // Body of the request is the JSON data we created above.
       body: JSONdata,
-    }
+    };
 
     const response = await fetch(endpoint, options);
     const resData = await response.json();
-    console.log(resData);
 
     if (response.status === 200) {
-      console.log('Message sent');
+      console.log("Message sent.");
       setEmailSubmitted(true);
     }
-  }
+  };
+
   return (
     <section id='contacts' className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 border border-l-transparent border-r-transparent border-b-transparent relative">
       {/* butterfly */}
@@ -48,7 +52,7 @@ const EmailSection = () => {
       <div className='h-96 w-96 z-0 -left-20 absolute top-3/4 transform sm:translate-x-full -translate-y-52'>
         <Image src="/images/background/email.gif" className='w-full h-full top-0 left-0 absolute' width={500} height={500} />
         <div className='h-20 w-full z-0 absolute -bottom-0.5 items-center'>
-        <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-red-600 via-yellow-6  
+          <div className='bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-red-600 via-yellow-6  
         00 to-transparent w-48 h-24 rounded-tl-full rounded-tr-full absolute left-24 bottom-0'></div>
         </div>
       </div>
@@ -92,7 +96,7 @@ const EmailSection = () => {
               id='email'
               required
               className='bg-[#181818] border-[#33353F] placeholder-text-[#ADB7BE] text-slate-200 text-sm rounded-lg block w-full p-2.5'
-              placeholder='email@google.com'
+              placeholder='email@gmail.com'
             />
           </div>
           <div className='mb-6'>
