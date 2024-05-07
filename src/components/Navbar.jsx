@@ -7,7 +7,7 @@ import MenuOverlay from './MenuOverlay';
 import Image from 'next/image';
 
 const navLinks = [
-    { title: "Home", path: "#hero" },
+    { title: "Home", path: "/" },
     { title: "About", path: "#about" },
     { title: "Projects", path: "#projects" },
     { title: "Contacts", path: "#contacts" }
@@ -16,14 +16,14 @@ const navLinks = [
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <nav className='fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-20 bg-slate-200 bg-opacity-100'>
+        <nav className='border border-[#33353F] top-0 left-0 right-0 z-20 bg-slate-200 bg-opacity-100'>
             <div className='flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2'>
                 <Link href={"/"} className='hover:bg-gradient-to-br from-primary-500 via-secondary-500 to-tertiary-500 rounded-full'>
-                <Image src="/logos/logo.png" className='rounded-xl' width={100} height={100} />
+                <Image src="/logos/logo.png" className='rounded-xl' width={75} height={75} />
                 </Link>
-                <div className='w-20 h-20 '>
+                {/* <div className='w-20 h-20 '>
                     <Image src="/images/extra_gif/butterfly2.gif" width={500} height={500} />
-                </div>
+                </div> */}
                 <div className='mobile-menu block md:hidden'>
                     {
                         !navbarOpen ? (

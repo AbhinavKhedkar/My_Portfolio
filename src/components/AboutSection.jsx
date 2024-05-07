@@ -1,7 +1,10 @@
 "use client"
-import React, { useState, useTransition } from 'react';
+import React, { useEffect, useState, useTransition } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
+import { FaChevronUp } from "react-icons/fa";
+import $ from 'jquery';
+import Scroll from './Scroll';
 
 const TAB_DATA = [
     {
@@ -39,7 +42,7 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className='List-disk pl-2'>
-                <li>• Wooshin Engineering Pvt. Ltd., Pune</li>
+                <li>• REBOOT Consultancy & Services, Pune</li>
             </ul>
         )
     },
@@ -58,6 +61,7 @@ const TAB_DATA = [
         content: (
             <ul className='List-disk pl-2'>
                 <li>• History</li>
+                <li>• Exploring historical places</li>
                 <li>• Collecting coins and old artefact</li>
             </ul>
         )

@@ -12,11 +12,11 @@ const achievementsList = [
     },
     {
         metrics: "Prjects Completed",
-        value: "4",
+        value: "7",
     },
     {
         metrics: "Months/Years Experience",
-        value: "6",
+        value: "9",
         postfix: "M"
     },
 ]
