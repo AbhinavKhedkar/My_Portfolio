@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend("re_L2aqebBT_mt6osrkbgUsM3DpUBUv6nKj6");
 
 export async function POST(req, res) {
   const { email, subject, message } = await req.json();
