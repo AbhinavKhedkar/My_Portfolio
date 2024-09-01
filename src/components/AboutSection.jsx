@@ -2,9 +2,6 @@
 import React, { useEffect, useState, useTransition } from 'react';
 import Image from 'next/image';
 import TabButton from './TabButton';
-import { FaChevronUp } from "react-icons/fa";
-import $ from 'jquery';
-import Scroll from './Scroll';
 
 const TAB_DATA = [
     {

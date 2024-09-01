@@ -3,6 +3,7 @@ import React, { useState, useRef } from 'react';
 import ProjectCard from './ProjectCard';
 import ProjectTag from './ProjectTag';
 import { motion, useInView } from 'framer-motion';
+import HomeCarousel from './HomeCarousal';
 
 
 const projectsData = [
@@ -113,6 +114,7 @@ const ProjectSection = () => {
                 <h2 className='text-center text-4xl font-bold text-slate-200 mt-4 mb-8 md:mb-12'>
                     My Projects
                 </h2>
+                <HomeCarousel/>
                 <div className='flex flex-row justify-center items-center gap-2 py-6'>
                     <ProjectTag
                         onClick={handleTagChange}

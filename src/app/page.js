@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-gradient-to-br from-primary-500 via-secondary-500 to-tertiary-500">
       <Navbar />
-      <div className="container">
+      <div className="container mx-auto">
         <HeroSection />
       </div>
-      <div className="container px-12">
+      <div className="container mx-auto px-12">
         <AchievementsSection />
         <AboutSection />
         <ProjectSection />
